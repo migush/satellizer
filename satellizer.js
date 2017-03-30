@@ -780,7 +780,7 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
                     var deferred = $q.defer();
 
                     if (Popup.blocked == true){
-                        deferred.reject('Pop-up blocker enabled?');
+                        deferred.reject('Pop-up blocker enabled.');
                     }
                     var redirectUriParser = document.createElement('a');
                     redirectUriParser.href = redirectUri;
